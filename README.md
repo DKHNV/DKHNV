@@ -18,67 +18,39 @@
 - слаботочные системы
 - сетевое администрирование
 - маршрутизация трафика
-- VPN-решения
 - автоматизация технических процессов
-- системы видеонаблюдения и смежная инфраструктура
+- системы видеонаблюдения и безопасности
 
 ## Мои проекты
 
-Основная часть репозиториев в данном профиле сгруппирована по отдельным сервисам и имеет типовую структуру:
+Основная часть репозиториев в данном профиле сгруппирована по отдельным сервисам.  
+Каждый сервисный репозиторий, как правило, содержит три основных типа данных:
 
-- `*_RouterOS` — репозиторий с файлом команд для роутеров MikroTik, позволяющим обновлять `address list` соответствующего сервиса
-- `*_CIDR` — репозиторий со списком IP-адресов и CIDR-диапазонов сервиса
-- `*_DNS` — репозиторий со списком доменных имён сервиса
+- `RouterOS` — файл с командами для роутеров MikroTik, позволяющий обновлять их `address list`
+- `CIDR` — список IP-адресов и CIDR-диапазонов сервиса
+- `DNS` — список доменных имён сервиса
 
-Отдельно в профиле также представлен универсальный инструмент для обновления `address list` из внешних источников:
+Отдельно в профиле также представлен универсальный инструмент для обновления `address list` роутеров MikroTik из внешних источников:
 
 - [RouterOS_AddressList_Updater](https://github.com/DKHNV/RouterOS_AddressList_Updater) — универсальный скрипт для MikroTik, предназначенный для обновления `address list` из внешних источников
 
-Ниже представлены основные проекты по сервисам.
+Ниже представлены основные репозитории по сервисам:
 
-### Telegram
-- [Telegram_RouterOS](https://github.com/DKHNV/Telegram_RouterOS)
-- [Telegram_CIDR](https://github.com/DKHNV/Telegram_CIDR)
-- [Telegram_DNS](https://github.com/DKHNV/Telegram_DNS)
-
-### YouTube
-- [YouTube_RouterOS](https://github.com/DKHNV/Youtube_RouterOS)
-- [YouTube_CIDR](https://github.com/DKHNV/YouTube_CIDR)
-- [YouTube_DNS](https://github.com/DKHNV/YouTube_DNS)
-
-### Discord*
-- [Discord_RouterOS](https://github.com/DKHNV/Discord_RouterOS)
-- [Discord_CIDR](https://github.com/DKHNV/Discord_CIDR)
-- [Discord_DNS](https://github.com/DKHNV/Discord_DNS)
-
-### ChatGPT
-- [ChatGPT_RouterOS](https://github.com/DKHNV/ChatGPT_RouterOS)
-- [ChatGPT_CIDR](https://github.com/DKHNV/ChatGPT_CIDR)
-- [ChatGPT_DNS](https://github.com/DKHNV/ChatGPT_DNS)
-
-### Meta*
-- [Meta_RouterOS](https://github.com/DKHNV/Meta_RouterOS)
-- [Meta_CIDR](https://github.com/DKHNV/Meta_CIDR)
-- [Meta_DNS](https://github.com/DKHNV/Meta_DNS)
-
-### TikTok
-- [TikTok_RouterOS](https://github.com/DKHNV/TikTok_RouterOS)
-- [TikTok_CIDR](https://github.com/DKHNV/TikTok_CIDR)
-- [TikTok_DNS](https://github.com/DKHNV/TikTok_DNS)
-
-### Netflix
-- [Netflix_RouterOS](https://github.com/DKHNV/Netflix_RouterOS)
-- [Netflix_CIDR](https://github.com/DKHNV/Netflix_CIDR)
-- [Netflix_DNS](https://github.com/DKHNV/Netflix_DNS)
-
-### Google
-- [Google_RouterOS](https://github.com/DKHNV/Google_RouterOS)
-- [Google_CIDR](https://github.com/DKHNV/Google_CIDR)
-- [Google_DNS](https://github.com/DKHNV/Google_DNS)
+- [Telegram](https://github.com/DKHNV/Telegram) — материалы по сервису Telegram для маршрутизации, фильтрации и сетевой политики
+- [YouTube](https://github.com/DKHNV/YouTube) — материалы по сервису YouTube для маршрутизации, фильтрации и сетевой политики
+- [Discord*](https://github.com/DKHNV/Discord) — материалы по сервису Discord для маршрутизации, фильтрации и сетевой политики
+- [ChatGPT](https://github.com/DKHNV/ChatGPT) — материалы по сервису ChatGPT для маршрутизации, фильтрации и сетевой политики
+- [Meta*](https://github.com/DKHNV/Meta) — материалы по сервисам Meta для маршрутизации, фильтрации и сетевой политики
+- [TikTok](https://github.com/DKHNV/TikTok) — материалы по сервису TikTok для маршрутизации, фильтрации и сетевой политики
+- [Netflix](https://github.com/DKHNV/Netflix) — материалы по сервису Netflix для маршрутизации, фильтрации и сетевой политики
+- [Google](https://github.com/DKHNV/Google) — материалы по сервисам Google для маршрутизации, фильтрации и сетевой политики
 
 ## Примечание
 
+
 Все материалы в данном профиле публикуются исключительно в образовательных, исследовательских и административных целях.  
-Они могут использоваться для изучения принципов сетевой обработки трафика, а также для задач по ограничению, фильтрации, контролю и управлению доступом к отдельным сервисам в рабочей или домашней сети.
+Они предназначены для изучения принципов сетевой обработки трафика, автоматизации сетевых задач и управления доступом к отдельным сервисам в рабочей или домашней сети.
+Автор предоставляет материалы в ознакомительных и учебных целях и не несёт ответственности за их дальнейшее использование третьими лицами.  
+Любое практическое применение опубликованной информации осуществляется пользователем самостоятельно и под его личную ответственность.
 
 \* Запрещены на территории РФ
