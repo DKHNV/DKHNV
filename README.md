@@ -24,11 +24,15 @@
 
 ## Мои проекты
 
-Репозитории в данном профиле сгруппированы по отдельным сервисам и имеют типовую структуру:
+Основная часть репозиториев в данном профиле сгруппирована по отдельным сервисам и имеет типовую структуру:
 
-- `*_RouterOS` — репозиторий со скриптом для роутеров MikroTik, автоматически обновляющим address list соответствующего сервиса
+- `*_RouterOS` — репозиторий с файлом команд для роутеров MikroTik, позволяющим обновлять `address list` соответствующего сервиса
 - `*_CIDR` — репозиторий со списком IP-адресов и CIDR-диапазонов сервиса
 - `*_DNS` — репозиторий со списком доменных имён сервиса
+
+Отдельно в профиле также представлен универсальный инструмент для обновления `address list` из внешних источников:
+
+- [RouterOS_AddressList_Updater](https://github.com/DKHNV/RouterOS_AddressList_Updater) — универсальный скрипт для MikroTik, предназначенный для обновления `address list` из внешних источников
 
 Ниже представлены основные проекты по сервисам.
 
@@ -42,7 +46,7 @@
 - [YouTube_CIDR](https://github.com/DKHNV/YouTube_CIDR)
 - [YouTube_DNS](https://github.com/DKHNV/YouTube_DNS)
 
-### Discord
+### Discord*
 - [Discord_RouterOS](https://github.com/DKHNV/Discord_RouterOS)
 - [Discord_CIDR](https://github.com/DKHNV/Discord_CIDR)
 - [Discord_DNS](https://github.com/DKHNV/Discord_DNS)
@@ -52,7 +56,7 @@
 - [ChatGPT_CIDR](https://github.com/DKHNV/ChatGPT_CIDR)
 - [ChatGPT_DNS](https://github.com/DKHNV/ChatGPT_DNS)
 
-### Meta
+### Meta*
 - [Meta_RouterOS](https://github.com/DKHNV/Meta_RouterOS)
 - [Meta_CIDR](https://github.com/DKHNV/Meta_CIDR)
 - [Meta_DNS](https://github.com/DKHNV/Meta_DNS)
@@ -76,3 +80,5 @@
 
 Все материалы в данном профиле публикуются исключительно в образовательных, исследовательских и административных целях.  
 Они могут использоваться для изучения принципов сетевой обработки трафика, а также для задач по ограничению, фильтрации, контролю и управлению доступом к отдельным сервисам в рабочей или домашней сети.
+
+\* Сервис или группа сервисов, доступ к которым официально ограничен на территории Российской Федерации.
