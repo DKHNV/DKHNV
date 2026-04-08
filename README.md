@@ -32,7 +32,7 @@
 
 Отдельно в профиле также представлен универсальный инструмент для обновления `address list` роутеров MikroTik из внешних источников:
 
-- [RouterOS_AddressList_Updater](https://github.com/DKHNV/RouterOS_AddressList_Updater) — универсальный скрипт для MikroTik, предназначенный для обновления `address list` из внешних источников
+- [RouterOS_AddressList_Updater](https://github.com/DKHNV/RouterOS_AddressList_Updater) — универсальный скрипт для MikroTik
 
 Ниже представлены основные репозитории по сервисам:
 
